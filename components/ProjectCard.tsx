@@ -1,5 +1,3 @@
-// components/ProjectCard.tsx
-
 type ProjectCardProps = {
     title: string
     description: string

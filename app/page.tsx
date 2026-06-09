@@ -2,6 +2,8 @@ import ProjectsGrid from '@/components/ProjectsGrid'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Education from '@/components/Education'
+import WorkHistory from '@/components/WorkHistory'
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <main className="flex flex-1 w-full  flex-col items-center justify-between pt-8 pb-16 px-16 bg-white dark:bg-black sm:items-start">
           <Hero />
          <ProjectsGrid />
+        <Education />
+        <WorkHistory />
       </main>
     <Footer />
     </div>
