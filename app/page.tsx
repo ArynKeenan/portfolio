@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Education from '@/components/Education'
 import WorkHistory from '@/components/WorkHistory'
+import ContactPage from '@/components/ContactPage'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
          <ProjectsGrid />
         <Education />
         <WorkHistory />
+        <ContactPage />
       </main>
     <Footer />
     </div>
