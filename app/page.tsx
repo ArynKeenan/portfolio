@@ -12,7 +12,7 @@ export default function Home() {
     <Navbar />
       <main className="flex flex-1 w-full  flex-col items-center justify-between pt-8 pb-16 px-16 bg-white dark:bg-black sm:items-start">
           <Hero />
-         <ProjectsGrid />
+        <ProjectsGrid />
         <Education />
         <WorkHistory />
         <ContactPage />
