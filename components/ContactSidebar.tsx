@@ -13,7 +13,7 @@ export default function ContactSidebar() {
                 </div>
                 <div className="flex flex-col">
                     <span className="text-[10px] font-bold uppercase tracking-tighter text-blue-600">Connect</span>
-                    <span className="text-sm font-bold text-slate-900">LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/aryn-keenan-b1b5b6252/" className="text-sm font-bold text-slate-900">LinkedIn</a>
                 </div>
                 </div>
             </div>
