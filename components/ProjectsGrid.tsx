@@ -9,7 +9,7 @@ const projects = [
 
 export default function ProjectsGrid() {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-20">
+    <section id="projects" className="max-w-7xl mx-auto px-6 py-20">
       <div className="flex justify-between items-end mb-12 border-b-2 border-slate-900 pb-4">
         <h2 className="text-4xl font-bold text-slate-900">Projects</h2>
         <span className="text-xs font-bold uppercase text-slate-400 tracking-widest">Add some text here</span>
@@ -19,6 +19,6 @@ export default function ProjectsGrid() {
           <ProjectCard key={project.title} {...project} />
         ))}
       </div>
-    </div>
+    </section>
   )
 }

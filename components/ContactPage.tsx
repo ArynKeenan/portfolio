@@ -4,7 +4,7 @@ import ContactForm from '@/components/ContactForm'
 
 export default function Contact() {
     return (
-        <section className="py-20">
+        <section id="contact" className="py-20">
             <div className="mb-12">
                 <div className="flex justify-between items-end mb-12 border-b-2 border-slate-900 pb-4">
                     <h2 className="text-4xl font-bold text-slate-900">Contact</h2>

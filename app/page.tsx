@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import Education from '@/components/Education'
 import WorkHistory from '@/components/WorkHistory'
 import ContactPage from '@/components/ContactPage'
+import About from '@/components/about'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <Navbar />
       <main className="max-w-7xl mx-auto px-6">
         <Hero />
+        <About />
         <ProjectsGrid />
         <Education />
         <WorkHistory />
