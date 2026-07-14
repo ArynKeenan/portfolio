@@ -5,7 +5,8 @@ import Footer from '@/components/Footer'
 import Education from '@/components/Education'
 import WorkHistory from '@/components/WorkHistory'
 import ContactPage from '@/components/ContactPage'
-import About from '@/components/about'
+import About from '@/components/About'
+import Skills from '@/components/Skills'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <About />
         <ProjectsGrid />
+        <Skills />
         <Education />
         <WorkHistory />
         <ContactPage />

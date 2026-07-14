@@ -15,9 +15,12 @@ export default function Hero() {
                 <a href="#contact" className="px-8 py-4 bg-blue-600 text-white font-bold border-2 border-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:translate-y-[-2px] transition-all">
                     GET IN CONTACT
                 </a>
-                <button className="px-8 py-4 bg-white text-slate-900 font-bold border-2 border-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:translate-y-[-2px] transition-all">
+                <a className="px-8 py-4 bg-white text-slate-900 font-bold border-2 border-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:translate-y-[-2px] transition-all"
+                    href="/aryn-keenan-cv.pdf"
+                    target="_blank"
+                >
                     VIEW MY CV
-                </button>
+                </a>
                 </div>
             </div>
             <div className="relative">
