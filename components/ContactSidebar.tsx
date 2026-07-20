@@ -46,7 +46,7 @@ export default function ContactSidebar() {
         <div className="space-y-4">
             <div className="relative">
                 <div className="border-2 border-slate-900 p-2 bg-white shadow-[12px_12px_0px_0px_rgba(15,23,42,1)]">
-                    <img src="/HeroImage.png" alt="Photo of Me" className="w-full grayscale contrast-125 opacity-80" />
+                    <img src="/ContactUsImage.png" alt="Photo of Me" className="w-full contrast-125 opacity-80" />
                 </div>
             </div>
             <div className="grid grid-cols-2 gap-4">

@@ -10,7 +10,7 @@ export default function About() {
             <div className="flex flex-col md:flex-row gap-12 items-center">
                 <div className="w-full md:w-1/3 flex-shrink-0">
                     <Image
-                        src="/HeroImage.png"
+                        src="/AboutMeImage.png"
                         alt="Aryn Keenan"
                         width={400}
                         height={400}
