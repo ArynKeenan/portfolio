@@ -9,14 +9,14 @@ const educationHistory = [
   },
   {
     title: 'A-Levels',
-    location: 'St Louis Grammer School',
+    location: 'St Louis Grammar School',
     yearStarted: new Date('2021-09'),
     yearEnded: new Date('2023-06'),
     description: 'Business Studies - B, Technology & Design - A',
   },
   {
     title: 'GCSEs',
-    location: 'St Louis Grammer School',
+    location: 'St Louis Grammar School',
     yearStarted: new Date('2019-09'),
     yearEnded: new Date('2021-06'),
     description: 'GCSE grades range from C* to A*. English - C*, Maths - A',

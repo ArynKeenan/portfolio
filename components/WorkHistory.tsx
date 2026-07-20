@@ -17,7 +17,7 @@ const workHistory = [
   {
     title: 'Hardware & Software Engineer',
     location: 'Laser Electronic Systems Ltd',
-    yearStarted: new Date('2015-05'),
+    yearStarted: new Date('2025-05'),
     yearEnded: new Date('2022-07'),
     description: 'Worked on Poker Machines',
   },

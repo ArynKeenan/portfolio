@@ -6,7 +6,7 @@ export default function Navbar() {
 
     useEffect(() => {
         const handleScroll = () => {
-          const sections = ['hero', 'about', 'projects', 'skillks', 'education', 'work-history', 'contact']
+          const sections = ['hero', 'about', 'projects', 'skills', 'education', 'work-history', 'contact']
           
           for (const section of sections) {
             const element = document.getElementById(section)
