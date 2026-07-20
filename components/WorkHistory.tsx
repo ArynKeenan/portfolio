@@ -5,21 +5,21 @@ const workHistory = [
     title: 'Embedded Software Engineer',
     location: 'Laser Electronic Systems Ltd',
     yearStarted: new Date('2026-05'),
-    description: 'While here I designed a system called Red Hot Monitor. This software was designed to work in the companys poker machines. It read the pulses from the PCB and recorded them on a Raspberry Pi.',
+    description: 'Working as an Embedded Software Engineer at Laser Electronic Systems Ltd, a family-owned casino gaming machine business operating across Ireland. My work spans the full stack — from low-level hardware interfacing on Raspberry Pi via GPIO, to Spring Boot backends and Next.js dashboards. Key projects include Red Hot Monitor, a real-time IoT monitoring platform that reads pulse data from gaming machine PCBs and displays live stats on a web dashboard.',
   },
   {
     title: 'Technology Analyst',
-    location: 'Citi',
+    location: 'CitiBank',
     yearStarted: new Date('2025-06'),
     yearEnded: new Date('2026-05'),
-    description: 'Worked in the frontend and backend team. While at the frontend team, we used React and TypeScript. In the backend I used Java, Spring Boot, Kafka and Oracle Db',
+    description: 'Completed a Technology Analyst placement at Citi, working across both frontend and backend teams. On the frontend I worked with React and TypeScript, and on the backend I used Java, Spring Boot, Kafka and Oracle DB. Gained experience working in a large scale enterprise environment with rigorous engineering standards and agile practices.',
   },
   {
     title: 'Hardware & Software Engineer',
     location: 'Laser Electronic Systems Ltd',
     yearStarted: new Date('2025-05'),
     yearEnded: new Date('2022-07'),
-    description: 'Worked on Poker Machines',
+    description: 'My first role at Laser, taken on at age 16. Worked on poker machine hardware and software, gaining hands-on experience with embedded systems from a very early age. This role sparked my passion for the intersection of hardware and software engineering and led directly to the AJ-CCTalk and AJ-PW monitoring projects built for a client across Ireland.',
   },
 ]
 
@@ -28,7 +28,7 @@ export default function WorkHistory() {
     <section id="work-history" className="max-w-7xl mx-auto px-6 pt-20">
       <div className="flex justify-between items-end mb-12 border-b-2 border-slate-900 pb-4">
           <h2 className="text-4xl font-bold text-slate-900">Work History</h2>
-          <span className="text-xs font-bold uppercase text-slate-400 tracking-widest">Add some text here</span>
+          <span className="text-xs font-bold uppercase text-slate-400 tracking-widest">Professional Experience</span>
       </div>
       {workHistory.map((education) => (
         <TimelineItem key={education.title} {...education} />
