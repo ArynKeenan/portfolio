@@ -25,7 +25,7 @@ export const metadata = {
     siteName: 'Aryn Keenan Portfolio',
     images: [
       {
-        url: '/og-image.png',
+        url: '/preview-image.png',
         width: 1200,
         height: 630,
         alt: 'Aryn Keenan Portfolio',
@@ -36,7 +36,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Aryn Keenan — Embedded Software Engineer',
     description: 'Embedded Software Engineer & Full Stack Developer based in County Down, Northern Ireland.',
-    images: ['/og-image.png'],
+    images: ['/preview-image.png'],
   }
 }
 
