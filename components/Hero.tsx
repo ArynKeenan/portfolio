@@ -9,7 +9,7 @@ export default function Hero() {
                 Aryn Keenan
                 </h1>
                 <p className="text-lg text-slate-600 mb-10 max-w-lg">
-                Specializing in building resilient, scalable backend infrastructures and high-speed web interfaces. I turn complex technical bottlenecks into streamlined competitive advantages.
+                Specialising in building resilient, scalable backend infrastructures and high-speed web interfaces. I turn complex technical bottlenecks into streamlined competitive advantages.
                 </p>
                 <div className="flex gap-4">
                 <a href="#contact" className="px-8 py-4 bg-blue-600 text-white font-bold border-2 border-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:translate-y-[-2px] transition-all">

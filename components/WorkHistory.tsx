@@ -2,10 +2,16 @@ import TimelineItem from './TimelineItem'
 
 const workHistory = [
   {
+    title: 'Founder',
+    location: 'Eyretel Labs',
+    yearStarted: new Date('2026-07'),
+    description: 'Founded Eyretel Labs, a sole trader company operating two divisions. AJ Studio focuses on web design for local businesses across County Down, offering brochure websites and monthly retainer packages. Empire Gaming is the software division, currently building Empire Poker, a full recreation of a legacy casino poker machine rebuilt from the ground up in Java and LibGDX, targeting Raspberry Pi hardware.'
+  },
+  {
     title: 'Embedded Software Engineer',
     location: 'Laser Electronic Systems Ltd',
     yearStarted: new Date('2026-05'),
-    description: 'Working as an Embedded Software Engineer at Laser Electronic Systems Ltd, a family-owned casino gaming machine business operating across Ireland. My work spans the full stack — from low-level hardware interfacing on Raspberry Pi via GPIO, to Spring Boot backends and Next.js dashboards. Key projects include Red Hot Monitor, a real-time IoT monitoring platform that reads pulse data from gaming machine PCBs and displays live stats on a web dashboard.',
+    description: 'Working as an Embedded Software Engineer at Laser Electronic Systems Ltd, a family-owned casino gaming machine business operating across Ireland. My work spans the full stack, from low-level hardware interfacing on Raspberry Pi via GPIO, to Spring Boot backends and Next.js dashboards. Key projects include Red Hot Monitor, a real-time IoT monitoring platform that reads pulse data from gaming machine PCBs and displays live stats on a web dashboard.',
   },
   {
     title: 'Technology Analyst',
@@ -19,7 +25,7 @@ const workHistory = [
     location: 'Laser Electronic Systems Ltd',
     yearStarted: new Date('2025-05'),
     yearEnded: new Date('2022-07'),
-    description: 'My first role at Laser, taken on at age 16. Worked on poker machine hardware and software, gaining hands-on experience with embedded systems from a very early age. This role sparked my passion for the intersection of hardware and software engineering and led directly to the AJ-CCTalk and AJ-PW monitoring projects built for a client across Ireland.',
+    description: 'My first role at Laser, taken on at age 16. Worked on gaming machine hardware and software, gaining hands-on experience with embedded systems from a very early age. This role sparked my passion for the intersection of hardware and software engineering and led directly to the AJ-CCTalk and AJ-PW monitoring projects built for a client across Ireland.',
   },
 ]
 

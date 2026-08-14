@@ -5,29 +5,29 @@ import ProjectModal from './ProjectModal'
 
 const projects = [
   {
-    title: 'POKERpi',
+    title: 'Empire Poker',
     description: 'A full rebuild of a legacy Z80-based poker gaming machine from scratch on Raspberry Pi using Java and LibGDX.',
     progress: 'IN PROGRESS',
-    completionDate: new Date('2026-07-01'),
+    completionDate: new Date('2026-01-01'),
     technologiesUsed: ['Java', 'LibGDX', 'Raspberry Pi'],
     liveUrl: null,
     modal: {
-      category: 'Embedded / Game Development',
-      challenge: 'Laser Electronic Systems had a legacy Z80-based poker machine that was becoming impossible to maintain. The original assembly code was undocumented and the hardware was aging — a full rebuild was needed.',
-      solution: 'I reverse-engineered the original machine using Ghidra and ImHex alongside original assembly listings to understand the game logic. I then rebuilt the entire game from scratch in Java using LibGDX, targeting a 448×256 virtual resolution with custom pixel-art font spritesheets and a tile-based renderer. The game runs on Raspberry Pi and replicates the original behaviour faithfully.',
-      outcomes: [
-        { label: 'Resolution', value: '448×256' },
-        { label: 'Language', value: 'Java' },
-        { label: 'Platform', value: 'Raspberry Pi' },
-      ],
-      stack: ['Java', 'LibGDX', 'Raspberry Pi', 'Ghidra', 'ImHex'],
-      metadata: {
-        date: 'July 2026',
-        role: 'Sole Developer',
-        status: 'In Progress',
-      }
+        category: 'Embedded / Game Development',
+        challenge: 'Laser Electronic Systems had a legacy Z80-based poker machine that was becoming impossible to maintain. The original assembly code was undocumented and the hardware was aging, so a full rebuild was needed to keep the machine in service.',
+        solution: 'Built under Empire Gaming, a division of Eyretel Labs, I reverse-engineered the original machine using Ghidra and ImHex alongside original assembly listings to fully understand the game logic. I then rebuilt the entire game from scratch in Java using LibGDX, with a custom pixel-art font spritesheet system and tile-based renderer. The game runs natively on Raspberry Pi and replicates the original machine behaviour faithfully, including all game modes and payout logic.',
+        outcomes: [
+            { label: 'Division', value: 'Empire Gaming' },
+            { label: 'Language', value: 'Java' },
+            { label: 'Platform', value: 'Raspberry Pi' },
+        ],
+        stack: ['Java', 'LibGDX', 'Raspberry Pi', 'Ghidra', 'ImHex'],
+        metadata: {
+            date: 'January 2026',
+            role: 'Sole Developer',
+            status: 'In Progress',
+        }
     }
-  },
+},
   {
     title: 'Red Hot Monitor',
     description: 'After the "AJ" project was scrapped before it even went into production, Laser decided to bring it back. Rebuilt from the ground up using Java and Raspberry Pi.',

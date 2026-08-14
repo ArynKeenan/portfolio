@@ -59,9 +59,9 @@ export default function ContactSidebar() {
                         className="border-2 border-slate-900 p-6 bg-slate-50 flex items-center gap-4 hover:translate-y-[-2px] transition-transform shadow-[4px_4px_0px_0px_rgba(15,23,42,1)]"
                     >
                         <div className="text-blue-600">{icon}</div>
-                        <div className="flex flex-col">
+                        <div className="flex flex-col min-w-0">
                             <span className="text-[10px] font-bold uppercase tracking-tighter text-blue-600">{label}</span>
-                            <span className="text-sm font-bold text-slate-900">{name}</span>
+                            <span className="text-sm font-bold text-slate-900 truncate">{name}</span>
                         </div>
                     </a>
                 ))}

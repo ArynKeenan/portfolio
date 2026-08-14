@@ -17,6 +17,9 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
+            <p className="text-xs text-slate-400 text-center mt-4">
+                Any information submitted through this site is used solely to respond to your enquiry and is never shared with third parties.
+            </p>
         </footer>
     )
   }

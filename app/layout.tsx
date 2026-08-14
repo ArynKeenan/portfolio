@@ -12,11 +12,33 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Aryn Keenan",
-  description:
-    "Portfolio of Aryn Keenan, an Embedded Software Engineer based in Northern Ireland — IoT, Raspberry Pi, and full-stack projects.",
-};
+export const metadata = {
+  title: 'Aryn Keenan | Embedded Software Engineer',
+  description: 'Embedded Software Engineer & Founder of Eyretel Labs based in County Down, Northern Ireland.',
+  icons: {
+    icon: '/favicon.ico',
+  },
+  openGraph: {
+    title: 'Aryn Keenan | Embedded Software Engineer',
+    description: 'Embedded Software Engineer & Founder of Eyretel Labs based in County Down, Northern Ireland.',
+    url: 'https://arynkeenan.com',
+    siteName: 'Aryn Keenan Portfolio',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Aryn Keenan Portfolio',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Aryn Keenan — Embedded Software Engineer',
+    description: 'Embedded Software Engineer & Full Stack Developer based in County Down, Northern Ireland.',
+    images: ['/og-image.png'],
+  }
+}
 
 export default function RootLayout({
   children,
