@@ -17,6 +17,7 @@ export const metadata = {
   description: 'Embedded Software Engineer & Founder of Eyretel Labs based in County Down, Northern Ireland.',
   icons: {
     icon: '/favicon.ico',
+    apple: '/favicon.ico',
   },
   openGraph: {
     title: 'Aryn Keenan | Embedded Software Engineer',
