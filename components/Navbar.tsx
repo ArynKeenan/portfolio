@@ -7,7 +7,7 @@ export default function Navbar() {
 
     useEffect(() => {
         const handleScroll = () => {
-            const sections = ['projects', 'experience', 'about', 'contact']
+            const sections = ['about', 'projects', 'skills', 'education', 'experience', 'contact']
             for (const section of sections) {
                 const element = document.getElementById(section)
                 if (element) {
@@ -24,8 +24,8 @@ export default function Navbar() {
     }, [])
 
     const navLinks = [
-        { label: 'Projects', id: 'projects' },
         { label: 'About', id: 'about' },
+        { label: 'Projects', id: 'projects' },
         { label: 'Skills', id: 'skills' },
         { label: 'Education', id: 'education' },
         { label: 'Work History', id: 'experience' },

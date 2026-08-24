@@ -31,7 +31,7 @@ const workHistory = [
 
 export default function WorkHistory() {
   return (
-    <section id="work-history" className="max-w-7xl mx-auto px-6 pt-20">
+    <section id="experience" className="max-w-7xl mx-auto px-6 pt-20">
       <div className="flex justify-between items-end mb-12 border-b-2 border-slate-900 pb-4">
           <h2 className="text-4xl font-bold text-slate-900">Work History</h2>
           <span className="text-xs font-bold uppercase text-slate-400 tracking-widest">Professional Experience</span>
